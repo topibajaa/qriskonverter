@@ -20,7 +20,9 @@ export CFLAGS="-I/data/data/com.termux/files/usr/include"
 ```
 
 ## 5. Install dependensi Python
+```
 pip install qrcode[pil]
+```
 
 ## 6. Install Git
 ```
