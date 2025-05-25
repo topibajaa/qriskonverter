@@ -8,6 +8,8 @@ pkg update && pkg upgrade -y
 pkg install python -y
 ```
 
+## Note
+untuk termux : 
 ## 3. Install dependency native untuk Pillow
 ```
 pkg install clang libjpeg-turbo libjpeg-turbo-static freetype freetype-static libpng libpng-static -y
