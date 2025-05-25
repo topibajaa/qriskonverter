@@ -8,14 +8,13 @@ pkg update && pkg upgrade -y
 pkg install python -y
 ```
 
-## Note
-untuk termux : 
-## 3. Install dependency native untuk Pillow
+## Untuk Termux
+ 3. Install dependency native untuk Pillow
 ```
 pkg install clang libjpeg-turbo libjpeg-turbo-static freetype freetype-static libpng libpng-static -y
 ```
 
-## 4. Set environment agar build library sukses
+ 4. Set environment agar build library sukses
 ```
 export LDFLAGS="-L/data/data/com.termux/files/usr/lib"
 export CFLAGS="-I/data/data/com.termux/files/usr/include"
